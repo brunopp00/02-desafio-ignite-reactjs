@@ -1,0 +1,219 @@
+@media (max-width: 1386px) {
+    .container {
+        grid-template-columns: 1fr !important;
+        padding: 0 8rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr !important;
+        padding: 0 1.6rem !important;
+        padding-bottom: 2rem !important;
+        margin-top: 8rem !important;
+    }
+
+    .completeBox {
+        padding: 1.6rem 2.3rem !important;
+        flex-direction: column;
+    }
+
+    .cepInput, .numberInput, .bairroInput, .teste {
+        width: 100% !important;
+    }
+    .complementInput, .cityInput {
+        width: 100% !important;
+    }
+    .formRow {
+        flex-direction: column !important;
+        gap: 1rem !important;
+    }
+
+    .payment {
+        display: grid;
+        grid-template-columns: 1fr !important;
+        gap: 0.75rem;
+        margin-top: 2rem;
+    }
+
+    .selectedCoffeesBox {
+        padding: 2.3rem 1.6rem !important;
+    }
+
+}
+
+.container {
+    width: 100%;
+    padding: 0 10rem;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.75fr 1.25fr;
+    gap: 2rem;
+    margin-top: 12rem;
+}
+
+
+.formInputs {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem 0.75rem;
+}
+
+.formRow {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.formRowMobile {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.defaultInput {
+    height: 2.625rem;
+    border-radius: 4px;
+    border: 1px solid var(--base-button);
+    background-color: var(--base-input);
+    color: var(--base-text);
+    padding: 0 0.75rem;
+}
+
+.cepInput, .numberInput, .bairroInput {
+    width: 12.5rem;
+}
+
+.ufInput {
+    width: 3.75rem;
+}
+
+.complementInput, .cityInput {
+    width: -webkit-fill-available;
+}
+
+.title {
+    color: var(--base-subtitle);
+    font-family: 'Baloo 2', cursive;
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 130%;
+    margin-bottom: 0.95rem;
+}
+
+.completeBox {
+    display: flex;
+    background: var(--base-card);
+    border-radius: 6px;
+    padding: 2.5rem;
+    flex-direction: column;
+}
+
+.completeBox:last-child {
+    margin-top: 0.75rem;
+}
+
+.payment {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.75rem;
+    margin-top: 2rem;
+}
+
+.payment a {
+    border-radius: 6px;
+    border: 1px solid transparent;
+    background-color: var(--base-button);
+    height: 3.125rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.selected {
+    background-color: var(--purple-light) !important;
+    border: 1px solid var(--purple) !important;
+}
+
+.payment a:hover {
+    background-color: var(--base-hover);
+    color: var(--base-subtitle);
+}
+
+.payment a span {
+    color: var(--base-text);
+    font-size: 0.75rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+}
+
+.selectedCoffeesBox {
+    display: flex;
+    background: var(--base-card);
+    padding: 2.5rem;
+    border-radius: 6px 44px 6px 44px;
+    flex-direction: column;
+}
+
+.totalBox {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.totalBox div {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.42rem 0;
+}
+
+.totalBox div:last-child {
+    margin-bottom: 0;
+}
+
+.confirm {
+    background-color: var(--yellow);
+    border: 0;
+    color: var(--white);
+    height: 2.875rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.confirm:hover {
+    background-color: var(--yellow-dark);
+}
+
+.textS {
+    color: var(--base-text);
+    font-size: 0.875rem;
+    line-height: 130%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.textM {
+    color: var(--base-text);
+    font-size: 1rem;
+    line-height: 130%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.textBoldL {
+    color: var(--base-text);
+    font-size: 1.25rem;
+    line-height: 130%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}

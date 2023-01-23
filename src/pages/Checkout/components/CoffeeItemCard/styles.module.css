@@ -1,0 +1,81 @@
+@media (max-width: 768px) {
+    .removeButton span {
+        display: none !important;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--base-button);
+}
+
+.container + .container {
+    padding-top: 1.5rem;
+}
+
+.imageInfos {
+    display: flex;
+    gap: 1.25rem;
+}
+
+.imageInfos img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.nameButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.name {
+    color: var(--base-subtitle);
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.removeButton {
+    background-color: var(--base-button);
+    border: 0;
+    border-radius: 6px;
+    padding: 0 0.40rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.removeButton:hover {
+    background-color: var(--base-hover);
+}
+
+.removeButton span {
+    color: var(--base-text);
+    font-size: 0.75rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.price {
+    color: var(--base-text);
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    line-height: 130%;
+    text-align: center;
+    white-space: nowrap;
+}

@@ -1,0 +1,108 @@
+.container {
+    background-color: var(--base-card);
+    border-radius: 6px 36px 6px 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container img {
+    width: auto;
+    height: auto;
+    max-width: 7.5rem;
+    max-height: 7.5rem;
+    margin-top: -1.5rem;
+}
+
+.tagContainer {
+    margin-top: 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.tag {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 0.25rem 0.5rem;
+    background-color: var(--yellow-light);
+    color: var(--yellow-dark);
+    border-radius: 12px;
+    font-size: 0.625;
+    line-height: 130%;
+}
+
+.name {
+    font-family: 'Baloo 2', cursive;
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 130%;
+    color: var(--base-subtitle);
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+
+.description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--base-label);
+    margin-top: 0.5rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    text-align: center;
+}
+
+.cartRow {
+    margin-top: 2.06rem;
+    margin-bottom: 1.25rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.cartRow span {
+    color: var(--base-text);
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.875rem;
+    line-height: 130%;
+    margin-right: 1.43rem;
+}
+
+.cartRow b {
+    color: var(--base-text);
+    font-family: 'Baloo 2', cursive;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.cartButtons {
+    display: flex;
+    gap: 0.375rem;
+}
+
+.cartButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.375rem;
+    height: 2.375rem;
+    border-radius: 6px;
+    border: 0;
+    background-color: var(--purple-dark);
+    color: var(--background);
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+
+.cartButton:hover {
+    background-color: var(--purple);
+}

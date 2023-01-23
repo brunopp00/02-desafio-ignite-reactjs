@@ -1,0 +1,88 @@
+@media (max-width: 768px) {
+    header {
+        padding: 0 1rem !important;
+        height: 5.5rem !important;
+    }
+}
+
+header {
+    width: 100%;
+    height: 6.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10rem;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    background-color: var(--background);
+}
+
+img {
+    height: 2.5rem;
+}
+
+.headerButtons {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.locationButton {
+    border-radius: 6px;
+    background-color: var(--purple-light);
+    border: 0;
+    padding: 0.5rem;
+    color: var(--purple-dark);
+    gap: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    transition: border 0.2s;
+    cursor: pointer;
+}
+
+.locationButton:hover {
+    border: 1px solid var(--purple);
+}
+
+.location-button span {
+    line-height: 130%;
+    font-size: 0.875rem;
+}
+
+.cartButton {
+    border-radius: 6px;
+    background-color: var(--yellow-light);
+    border: 0;
+    padding: 0.5rem;
+    color: var(--yellow-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    transition: border 0.2s;
+    cursor: pointer;
+}
+
+.counter {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: var(--yellow-dark);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: -35px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 0.75rem;
+    margin-left: 35px;
+}
+
+.cartButton:hover {
+    border: 1px solid var(--yellow);
+}
